@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#f0f8ff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="type"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="#467DDAE3"
+        android:outlineAmbientShadowColor="#0F757E"
+        android:id="@+id/transactiontype"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="17 days ago"
+        android:textSize="8sp"
+        android:textColor="#FF021012"
+        android:id="@+id/date"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/notes"
+        android:layout_marginTop="20dp"
+        android:text="transfer to btc wallet"
+        android:textSize="7sp"
+        android:textColor="#FF021012"
+        android:layout_marginLeft="68dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="310dp"
+        android:text="10000"
+        android:textSize="10sp"
+        android:layout_marginTop="12dp"
+        android:textColor="#FF021012"
+        android:id="@+id/amount"
+        />
+    <View
+        android:layout_marginTop="40dp"
+        style="@style/divider"
+
+
+        />
+</androidx.cardview.widget.CardView>
